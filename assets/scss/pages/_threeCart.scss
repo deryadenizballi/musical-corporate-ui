@@ -1,0 +1,35 @@
+.three-cart__section {
+    background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/bg/choose-bg.jpg);
+    background-size: cover;
+  .three-cart {
+    padding: 2rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    transition: 500ms all;
+    border-radius: 0.3rem;
+    &__icon {
+      font-size: 3.5rem;
+      margin: 1.5rem 0;
+      color: $pink;
+    }
+
+    &__text {
+      h6 {
+        font-weight: bold;
+        margin: 0 0 1rem;
+      }
+      p {
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 300;
+      }
+    }
+
+    &:hover {
+      background: $blue-grandient;
+      color: $white;
+      cursor: pointer;
+      transition: 500ms all;
+    }
+  }
+}

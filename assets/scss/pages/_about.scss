@@ -1,0 +1,67 @@
+.about__section {
+  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .about {
+    text-align: center;
+    color: $white;
+    padding: 5rem 0;
+    width: 100%;
+
+    &__icon {
+      max-width: 6rem;
+      margin: 3rem 0;
+    }
+
+    &__text {
+      width: 100%;
+      h6 {
+        text-decoration: underline;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .shadow {
+        position: relative;
+        width: 100%;
+        .shadow__text {
+          position: absolute;
+          font-size: 8rem;
+          font-weight: bold;
+          opacity: 0.1;
+          top: 0;
+          width: 100%;
+          left: 0;
+          right: 0;
+          z-index: 0;
+        }
+
+        h3 {
+          font-weight: bold;
+          font-size: 8rem;
+          margin-bottom: 2rem;
+
+          width: 100%;
+          span {
+            color: $pink;
+            position: relative;
+            z-index: 2;
+          }
+        }
+      }
+
+      h4 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+
+        span {
+          color: $pink;
+        }
+      }
+    }
+
+  }
+}

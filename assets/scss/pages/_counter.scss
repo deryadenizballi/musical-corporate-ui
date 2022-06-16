@@ -1,0 +1,37 @@
+.counter__section {
+  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+
+  .countdown-container {
+    padding: 5rem 0;
+
+    .colon {
+      height: 100%;
+      display: block;
+      align-self: flex-start;
+      padding-top: 0.9rem;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    .countdown-el {
+      margin: 0 1rem;
+      text-align: center;
+
+      p {
+        font-weight: bold;
+        font-size: 4rem;
+      }
+
+      span {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 0.5rem;
+        display: block;
+      }
+    }
+  }
+}

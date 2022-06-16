@@ -1,0 +1,46 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+
+}
+
+section {
+  border: 1px solid red;
+  padding: 5rem 0;
+
+  @include mediaQuery(phone) {
+    padding: 2rem 0;
+  }
+}
+
+.d_fc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d_fd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d_fb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: $white;
+  transition: 500ms all;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: 500ms all;
+  color: $white;
+}
