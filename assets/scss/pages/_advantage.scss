@@ -1,0 +1,64 @@
+.advantage__seciton {
+  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  .advantage__text {
+    text-align: center;
+    margin: 2rem 0 3.5rem;
+  }
+
+  .advantage__box {
+    background-color: $white;
+    padding: 3rem;
+    color: $black-100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    span {
+      display: block;
+      text-align: center;
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    i {
+      color: $pink;
+      font-size: 4rem;
+      margin: auto;
+      transition: 800ms all;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $pink;
+      width: 0;
+      height: 0.2rem;
+      bottom: 0;
+      left: 0;
+      transition: 600ms all;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+        transition: 600ms all;
+      }
+
+      i ,span{
+       position: relative;
+       top: -0.2rem;
+       transition: 1000ms all;
+      }
+    
+    }
+  }
+}

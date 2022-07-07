@@ -1,0 +1,89 @@
+.talking__section {
+    background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/bg/choose-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+   
+  .talking__img {
+    padding: 1rem;
+    position: relative;
+    height: 100%;
+    z-index: 2;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &:before {
+      content: "";
+      background-color: $blue;
+      width: 5rem;
+      height: 70%;
+      position: absolute;
+      left: 0;
+      top: 0%;
+      z-index: -1;
+    }
+    &::after {
+      content: "";
+      background-color: $blue;
+      width: 5rem;
+      height: 70%;
+      position: absolute;
+      right: 0;
+      bottom: 0%;
+      z-index: -1;
+    }
+  }
+
+  .talking__tittle {
+    padding: 2rem 0;
+    margin-left: 2rem;
+    .tittle {
+      text-align: left;
+
+      &::before {
+        left: 0;
+      }
+
+      &::after {
+        left: 2%;
+      }
+    }
+
+    p {
+      margin-top: 1rem;
+      line-height: 1.5;
+    }
+
+    .talking__icon {
+      display: flex;
+
+      .talking_box {
+        display: flex;
+        padding: 1rem;
+        margin-top: 2rem;
+
+        i {
+          color: $pink;
+          font-size: 3rem;
+          margin-right: 1rem;
+        }
+
+        &_details {
+          span {
+            font-weight: 600;
+            font-size: 3rem;
+          }
+
+          p {
+            margin: 0;
+            padding: 0;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
