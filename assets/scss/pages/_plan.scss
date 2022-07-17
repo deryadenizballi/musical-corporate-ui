@@ -1,0 +1,72 @@
+.plan__section {
+  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+
+  .plan__tittle {
+    margin-bottom: 3rem;
+    .nav-tabs {
+      border: 0;
+    }
+    .nav {
+      justify-content: center;
+    }
+
+    .nav-tabs .nav-link {
+      padding: 1.5rem 4rem;
+      border-radius: 4rem;
+      background-color: $blue;
+      color: $white;
+      margin:  0.9rem;
+      font-weight: 400;
+      font-size: 1.2rem;
+
+      span {
+        display: block;
+        margin-top: 0.9rem;
+        font-size: 0.9rem;
+      }
+    }
+
+     .nav-link.active{
+        background-color: $pink;
+        border: 0;
+        position: relative;
+        z-index:5;
+
+        &::before{
+            position:absolute;
+            content: '';
+            width: 3rem;
+            height: 3rem;
+            background-color: $pink;
+            left: 40%;
+            bottom: -8%;
+            transform: rotate(45deg);
+            z-index:-1;
+        }
+     }
+  }
+
+  .plan__comment {
+    background-color: $blue;
+    margin: 1rem 0;
+    padding: 1.5rem;
+
+    h6 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    span i {
+        color: $pink;
+        margin-right: 0.3rem;
+    }
+  }
+}
