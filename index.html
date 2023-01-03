@@ -1,6 +1,5 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,786 +7,838 @@
 
     <!-- Font: Poppins -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome 5 -->
-    <link rel="stylesheet" href="assets/library/font-awesome-5/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/library/font-awesome-5/css/all.min.css"
+    />
 
     <!-- Bootstrap 5 -->
-    <link rel="stylesheet" href="assets/library/bootstrap-5/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/library/bootstrap-5/css/bootstrap.min.css"
+    />
 
     <!-- Custom Css -->
     <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/scss/main.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- HEADER TOP START
 ======================================================================== -->
     <header class="header__section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="header d_fb">
-                        <div class="header__logo">
-                            <h1> <a href="index.html"> Evenio </a></h1>
-                        </div>
-                        <div class="header__menu">
-                            <ul class="d_fc">
-                                <li><a href="#">Home + </a></li>
-                                <li><a href="#">About +</a></li>
-                                <li><a href="#">Speakers + </a></li>
-                                <li><a href="#">Pages + </a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="header__ticket">
-                            <button type="button" class="default__btn">
-                                <a href="#">BUY TICKETS</a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header d_fb">
+              <div class="header__logo">
+                <h1><a href="index.html"> Musical </a></h1>
+              </div>
+              <div class="header__menu">
+                <button type="button" class="mobil__menu"><span></span></button>
+                <ul class="d_fc">
+                  <li><a href="#about">Home + </a></li>
+                  <li><a  href="#about">About +</a></li>
+                  <li><a href="#speakers">Speakers + </a></li>
+                  <li><a href="#pages">Pages + </a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="header__ticket">
+                <button type="button" class="default__btn">
+                  <a href="#">BUY TICKETS</a>
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
     <!-- HEADER TOP END
 ======================================================================== -->
 
-
     <!-- ABOUT START
 ======================================================================== -->
     <section class="about__section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-
-                    <div class="about d_fd ">
-                        <div class="about__icon">
-                            <img src="assets/images/microphon.png" class="img-fluid" alt="microphone">
-                        </div>
-                        <div class="about__text">
-
-                            <h6>13-15 March 2022 | Row Hotel - New York </h6>
-                            <div class="shadow">
-                                <h3>BUSI<span>N</span>ESS</h3>
-                                <marquee class="shadow__text" behavior=alternate>BUSINESS</marquee>
-                            </div>
-                            <h4>CONFERENCE <span>2022</span> </h4>
-                            <button type="button" class="default__btn">
-                                <a href="index.html">Purchase Ticket</a>
-                            </button>
-                        </div>
-                    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="about d_fd">
+              <div class="about__icon">
+                <img
+                  src="assets/images/microphon.png"
+                  class="img-fluid"
+                  alt="microphone"
+                />
+              </div>
+              <div class="about__text">
+                <h6>13-15 March 2023 | Row Hotel - New York</h6>
+                <div class="shadow">
+                  <h3>BUSI<span>N</span>ESS</h3>
+                  <marquee class="shadow__text" behavior="alternate"
+                    >BUSINESS</marquee
+                  >
                 </div>
+                <h4>CONFERENCE <span>2023</span></h4>
+                <button type="button" class="default__btn">
+                  <a href="index.html">Purchase Ticket</a>
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- ABOUT END
 ======================================================================== -->
 
-
     <!-- THREE CART START
 ======================================================================== -->
-    <section class="three-cart__section">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="tittle">
-                        <p>JOIN THE EVENT</p>
-                        <h5>
-                            Why You Should Attend
-                            Conference
-                        </h5>
-                    </div>
-                </div>
+    <section class="three-cart__section" id="about">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="tittle">
+              <p>JOIN THE EVENT</p>
+              <h5>Why You Should Attend Conference</h5>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="three-cart">
-                        <div class="three-cart__icon d_fc">
-                            <i class="fab fa-hive"></i>
-                        </div>
-                        <div class="three-cart__text d_fd">
-                            <h6>Networking</h6>
-                            <p>
-                                Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in
-                                porttitor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="three-cart">
-                        <div class="three-cart__icon d_fc">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-                        <div class="three-cart__text d_fd">
-                            <h6>Networking</h6>
-                            <p>
-                                Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in
-                                porttitor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="three-cart">
-                        <div class="three-cart__icon d_fc">
-                            <i class="fas fa-wifi"></i>
-                        </div>
-                        <div class="three-cart__text d_fd">
-                            <h6>Networking</h6>
-                            <p>
-                                Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus, in
-                                porttitor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="three-cart">
+              <div class="three-cart__icon d_fc">
+                <i class="fab fa-hive"></i>
+              </div>
+              <div class="three-cart__text d_fd">
+                <h6>Networking</h6>
+                <p>
+                  Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio
+                  ac nibh luctus, in porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="three-cart">
+              <div class="three-cart__icon d_fc">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <div class="three-cart__text d_fd">
+                <h6>Networking</h6>
+                <p>
+                  Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio
+                  ac nibh luctus, in porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="three-cart">
+              <div class="three-cart__icon d_fc">
+                <i class="fas fa-wifi"></i>
+              </div>
+              <div class="three-cart__text d_fd">
+                <h6>Networking</h6>
+                <p>
+                  Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio
+                  ac nibh luctus, in porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- THREE CART END
 ======================================================================== -->
 
-
     <!-- COUNTER START
 ======================================================================== -->
-    <section class="counter__section">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="tittle">
-                        <p>HURRY UP</p>
-                        <h5>
-                            Join The Conference Before
-                            Registration Closed
-                        </h5>
-                    </div>
-                </div>
+    <section class="counter__section" id="speakers">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="tittle">
+              <p>HURRY UP</p>
+              <h5>Join The Conference Before Registration Closed</h5>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="countdown-container d_fc">
-                        <div class="countdown-el days-c">
-                            <p class="big-text" id="days">0</p>
-                            <span>days</span>
-                        </div>
-                        <div class="colon">:</div>
-                        <div class="countdown-el hours-c">
-                            <p class="big-text" id="hours">0</p>
-                            <span>hours</span>
-                        </div>
-                        <span class="colon">:</span>
-                        <div class="countdown-el mins-c">
-                            <p class="big-text" id="mins">0</p>
-                            <span>mins</span>
-                        </div>
-                        <span class="colon">:</span>
-                        <div class="countdown-el seconds-c">
-                            <p class="big-text" id="seconds">0</p>
-                            <span>seconds</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d_fc">
-                    <button type="button" class="default__btn">
-                        <a href="index.html">Register Now</a>
-                    </button>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="countdown-container d_fc">
+              <div class="countdown-el days-c">
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+              </div>
+              <div class="colon">:</div>
+              <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+              </div>
+              <span class="colon">:</span>
+              <div class="countdown-el mins-c">
+                <p class="big-text" id="mins">0</p>
+                <span>mins</span>
+              </div>
+              <span class="colon">:</span>
+              <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds">0</p>
+                <span>seconds</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d_fc">
+            <button type="button" class="default__btn">
+              <a href="index.html">Register Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- COUNTER END
 ======================================================================== -->
 
-
     <!-- TALKİNG START
 ======================================================================== -->
-    <section class="talking__section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12- col-sm-12">
-                    <div class="talking__img">
-                        <img src="assets/images/talking.webp" class="img-fluid" alt="speakers">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="talking__tittle">
-
-                        <div class="tittle">
-                            <p>ABOUT EVENIO</p>
-                            <h5>
-                                The Ultimate Business Event WordPress Theme
-                            </h5>
-
-
-                        </div>
-
-                        <p>
-                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt, explicabo.
-                        </p>
-
-                        <div class="talking__icon">
-
-                            <div class="talking_box">
-                                <i class="fas fa-microphone"></i>
-                                <div class="talking_box_details">
-                                    <span>0+</span>
-                                    <p>Speakers</p>
-                                </div>
-                            </div>
-
-                            <div class="talking_box">
-                                <i class="fas fa-microphone-alt-slash"></i>
-                                <div class="talking_box_details">
-                                    <span>0+</span>
-                                    <p>Speakers</p>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <button type="button" class="default__btn">
-                            <a href="index.html">Book Now</a>
-                        </button>
-                    </div>
-
-                </div>
+    <section class="talking__section" id="pages">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12- col-sm-12">
+            <div class="talking__img">
+              <img
+                src="https://images.pexels.com/photos/6835831/pexels-photo-6835831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="img-fluid"
+                alt="speakers"
+              />
             </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="talking__tittle">
+              <div class="tittle">
+                <p>ABOUT EVENIO</p>
+                <h5>The Ultimate Business Event WordPress Theme</h5>
+              </div>
+
+              <p>
+                Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt, explicabo.
+              </p>
+
+              <div class="talking__icon">
+                <div class="talking_box">
+                  <i class="fas fa-microphone"></i>
+                  <div class="talking_box_details">
+                    <span>0+</span>
+                    <p>Speakers</p>
+                  </div>
+                </div>
+
+                <div class="talking_box">
+                  <i class="fas fa-microphone-alt-slash"></i>
+                  <div class="talking_box_details">
+                    <span>0+</span>
+                    <p>Speakers</p>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="default__btn">
+                <a href="index.html">Book Now</a>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- TALKİNG END
 ======================================================================== -->
 
-
     <!-- ADVANTAGE START
 ======================================================================== -->
-    <section class="advantage__seciton">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="tittle">
-                        <p>JOIN THE EVENT</p>
-                        <h5>
-                            Our Provided Perks For You
-                            During Conference
-                        </h5>
-                    </div>
-                </div>
+    <section class="advantage__seciton" id="blog">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="tittle">
+              <p>JOIN THE EVENT</p>
+              <h5>Our Provided Perks For You During Conference</h5>
             </div>
-
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-7 col-sm-12">
-                    <div class="advantage__text">
-                        <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                            architecto beatae vitae dicta sunt explicabo.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row ">
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="advantage__box">
-                        <i class="fas fa-photo-video"></i>
-                        <span>
-                            Photo Booth
-                        </span>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="advantage__box">
-                        <i class="fas fa-atom"></i>
-                        <span>
-                            Vouchers
-                        </span>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="advantage__box">
-                        <i class="fas fa-adjust"></i>
-                        <span>
-                            Ice Cream
-                        </span>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="advantage__box">
-                        <i class="fas fa-ankh"></i>
-                        <span>
-                            After Party
-                        </span>
-                    </div>
-                </div>
-
-                <div class="col-12 d_fc mt-5">
-                    <button type="button" class="default__btn">
-                        <a href="index.html">Join This Event</a>
-                    </button>
-                </div>
-
-            </div>
-
-
-
-
-
+          </div>
         </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-7 col-sm-12">
+            <div class="advantage__text">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="advantage__box">
+              <i class="fas fa-photo-video"></i>
+              <span> Photo Booth </span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="advantage__box">
+              <i class="fas fa-atom"></i>
+              <span> Vouchers </span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="advantage__box">
+              <i class="fas fa-adjust"></i>
+              <span> Ice Cream </span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="advantage__box">
+              <i class="fas fa-ankh"></i>
+              <span> After Party </span>
+            </div>
+          </div>
+
+          <div class="col-12 d_fc mt-5">
+            <button type="button" class="default__btn">
+              <a href="index.html">Join This Event</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- ADVANTAGE END
 ======================================================================== -->
 
     <!-- TEAM START
 ======================================================================== -->
-    <section class="team__section">
-        <div class="container">
-            <div class="row d-flex justify-content-center mb-5">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="tittle">
-                        <p>EVENT SPEAKERS</p>
-                        <h5>
-                            Founders From Around The
-                            Globe Sharing Experence
-                        </h5>
-                    </div>
-                </div>
+    <section class="team__section" id="contact">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="tittle">
+              <p>EVENT SPEAKERS</p>
+              <h5>Founders From Around The Globe Sharing Experence</h5>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team1.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team3.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team2.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team4.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team5.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team6.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team7.jpeg" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-12">
-                    <div class="team__box">
-                        <img src="assets/images/team8.webp" alt="team">
-
-                        <div class="team__box__details">
-                            <h6>Michel Holding</h6>
-                            <p>
-                                CEO&FOUNDER
-                            </p>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team1.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team3.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team2.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team4.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team5.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team6.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team7.jpeg" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="team__box">
+              <img src="assets/images/team8.webp" alt="team" />
+
+              <div class="team__box__details">
+                <h6>Michel Holding</h6>
+                <p>CEO&FOUNDER</p>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- TEAM END
 ======================================================================== -->
 
-
     <!-- DAYS TAB START
 ======================================================================== -->
     <section class="plan__section">
-        <div class="container">
-
-            <div class="row d-flex justify-content-center mb-5">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <div class="tittle">
-                        <p>TIMETABLE</p>
-                        <h5>
-                            Event Schedules
-                        </h5>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-5">
+          <div class="col-lg-7 col-md-12 col-sm-12">
+            <div class="tittle">
+              <p>TIMETABLE</p>
+              <h5>Event Schedules</h5>
             </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="plan__tittle">
-
-
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                    data-bs-target="#home-tab-pane" type="button" role="tab"
-                                    aria-controls="home-tab-pane" aria-selected="true">Day 1
-                                    <span>20.12.2022</span></button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                    aria-controls="profile-tab-pane" aria-selected="false">Day 2
-                                    <span>20.13.2022</span></button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
-                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                    aria-controls="contact-tab-pane" aria-selected="false">Day 3
-                                    <span>20.14.2022</span></button>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-
-
-                <div class="col-12">
-                    <div class="row">
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                                aria-labelledby="home-tab" tabindex="0">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Introduction Business</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 10:00
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Introduction Business</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 11:00
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Introduction Business</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 12:00
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Introduction Business</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 13:00
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
-                                aria-labelledby="profile-tab" tabindex="0">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Digital Marketing Theory</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 10:00
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Digital Marketing Theory</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 13:00
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
-                                aria-labelledby="contact-tab" tabindex="0">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Marketing Workshop</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 10:00
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Marketing Workshop</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 13:00
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-sm-12">
-                                            <div class="plan__comment">
-                                                <h6>Marketing Workshop</h6>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In error
-                                                    odit voluptatum
-                                                    accusantium, maxime illo. Ab recusandae quidem accusantium
-                                                    asperiores minus enim
-                                                    modi reprehenderit nisi te</p>
-                                                <span>
-                                                    <i class="far fa-clock"></i> 13:00
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="plan__tittle">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true"
+                  >
+                    Day 1 <span>20.12.2022</span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false"
+                  >
+                    Day 2 <span>20.13.2022</span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    Day 3 <span>20.14.2022</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="row">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                  tabindex="0"
+                >
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Introduction Business</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 10:00 </span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Introduction Business</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 11:00 </span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Introduction Business</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 12:00 </span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Introduction Business</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 13:00 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                  tabindex="0"
+                >
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Digital Marketing Theory</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 10:00 </span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Digital Marketing Theory</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 13:00 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="contact-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                  tabindex="0"
+                >
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Marketing Workshop</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 10:00 </span>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Marketing Workshop</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 13:00 </span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12">
+                        <div class="plan__comment">
+                          <h6>Marketing Workshop</h6>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. In error odit voluptatum accusantium, maxime
+                            illo. Ab recusandae quidem accusantium asperiores
+                            minus enim modi reprehenderit nisi te
+                          </p>
+                          <span> <i class="far fa-clock"></i> 13:00 </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- DAYS TAB START
 ======================================================================== -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- TITTLE START
+    <!-- FOOTER START
 ======================================================================== -->
-    <!-- <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-7 col-md-12 col-sm-12">
-                <div class="tittle">
-                    <p>JOIN THE EVENT</p>
-                    <h5>
-                        Why You Should Attend
-                        Conference
-                    </h5>
-                </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer__box">
+              <h2><a href="index.html"> Musical </a></h2>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer__box">
+              <h6>Address</h6>
+              <ul>
+                <li>
+                  Colabrio is a with 7+ years of
+                  experience.
+                </li>
+                <li>
+                  Have a good up in our
+                  updates!
+                </li>
+                <li>ACF Pro and Sliderhat helps you</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer__box">
+              <h6>Call Us</h6>
+              <ul>
+                <li>
+                  Life-time reliabith your.
+                </li>
+                <li>
+                  Colabrio is a time-te 7+ years of
+                  experience.
+                </li>
+                <li>ACF Pro and Slns that helps you</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer__box">
+              <h6>Follow Us</h6>
+              <ul>
+                <li>
+                  Have a good idea or an ?
+                </li>
+                <li>
+                  ACF Pro andou to save
+                  $198 in total.
+                </li>
+
+                <li>
+                  Life-time reulg with your
+                  purchase.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>  -->
-    <!-- TITTLE END
+      </div>
+    </footer>
+
+    <!-- FOOTER END
 ======================================================================== -->
-
-
-
 
 
     <!-- Bootstrap -->
@@ -796,6 +847,5 @@
     <script src="assets/library/jquery/jquery-3.6.0.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

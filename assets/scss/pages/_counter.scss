@@ -1,8 +1,9 @@
 .counter__section {
-  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-image: url(https://images.pexels.com/photos/3101520/pexels-photo-3101520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
+  overflow-x: hidden;
 
   .countdown-container {
     padding: 5rem 0;
@@ -14,15 +15,22 @@
       padding-top: 0.9rem;
       font-weight: 600;
       font-size: 2rem;
+     
+
     }
 
     .countdown-el {
       margin: 0 1rem;
       text-align: center;
 
+
       p {
         font-weight: bold;
         font-size: 4rem;
+
+      @include mediaQuery(phone) {
+        font-size: 2rem;
+      }
       }
 
       span {

@@ -7,8 +7,8 @@ body {
 }
 
 section {
-  border: 1px solid red;
   padding: 5rem 0;
+  overflow-x: hidden;
 
   @include mediaQuery(phone) {
     padding: 2rem 0;

@@ -1,5 +1,5 @@
 .advantage__seciton {
-  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-image: url(https://images.pexels.com/photos/1983046/pexels-photo-1983046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -20,6 +20,10 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
+
+    @include mediaQuery(phone) {
+      margin: 1rem 0;
+    }
 
     span {
       display: block;

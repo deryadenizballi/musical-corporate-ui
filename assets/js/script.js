@@ -1,3 +1,16 @@
+
+const mobilButton=document.querySelector('.mobil__menu');
+const mobilMenu =document.querySelector('.header__menu>ul');
+
+mobilButton.addEventListener('click',()=>{
+mobilMenu.classList.toggle("is-active");
+})
+
+
+console.log(mobilMenu);
+
+
+
 //====================== COUNTER ======================//
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
@@ -25,3 +38,4 @@ function countdown() {
 
 countdown();
 setInterval(countdown, 1000);
+

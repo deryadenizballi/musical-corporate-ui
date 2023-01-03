@@ -1,7 +1,8 @@
 .about__section {
-  background-image: url(https://keenitsolutions.com/products/html/evenio/assets/images/banner/style1/banner-bg.jpg);
+  background-image: url(https://images.pexels.com/photos/6835825/pexels-photo-6835825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 
   .about {
     text-align: center;
@@ -26,6 +27,8 @@
       .shadow {
         position: relative;
         width: 100%;
+
+       
         .shadow__text {
           position: absolute;
           font-size: 8rem;
@@ -36,6 +39,8 @@
           left: 0;
           right: 0;
           z-index: 0;
+
+         
         }
 
         h3 {
@@ -44,6 +49,11 @@
           margin-bottom: 2rem;
 
           width: 100%;
+
+          @include mediaQuery(phone) {
+            font-size: 3.2rem;
+          }
+
           span {
             color: $pink;
             position: relative;
@@ -56,6 +66,10 @@
         font-size: 3.5rem;
         font-weight: 700;
         margin-bottom: 2rem;
+
+        @include mediaQuery(phone) {
+          font-size: 3.4rem;
+        }
 
         span {
           color: $pink;
